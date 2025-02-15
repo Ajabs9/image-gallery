@@ -48,7 +48,7 @@ const Modal = ({ image, onClose }) => {
         {/* Modal Header */}
         <div className="sticky top-0 z-10 bg-white dark:bg-gray-800 p-4 border-b dark:border-gray-700 flex justify-between items-center">
           <h2 className="text-xl font-semibold dark:text-white truncate">
-            {image.author} - ID: {image.id}  {/* ✅ Displays author & photo ID */}
+            {image.author} - ID: {image.id} 
           </h2>
           <button
             onClick={onClose}
